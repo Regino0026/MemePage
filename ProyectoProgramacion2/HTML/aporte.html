@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar aporte</title>
+    <link rel="stylesheet" href="aporte.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="body1">
+    <nav class="navbar navbar-expand-lg navbar-light scrolling" data-bs-spy="scroll" data-bs-target=".nav"
+        style="background-color: #F8BB1f;">
+        <div class="container-fluid">
+            <a href="Inicio2.html" class="navbar-brand">
+                <img src="Img/Logo Doodoo.png" height="28" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="Inicio2.html" class="nav-item nav-link" style="color:white;">Inicio</a>
+                    <a href="perfil.html" class="nav-item nav-link" style="color: white;">Perfil</a>
+                    <a href="Sobre Nosotros.Html" class="nav-item nav-link" style="color:white;">Sobre Nosotros</a>
+                    <a href="Categorias.html" class="nav-item nav-link" style="color:white;">Categorias</a>
+                    <a href="aporte.html" class="nav-item nav-link active" tabindex="-1"
+                        style="color: white;">Aporte</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="#"><img src="Img/sadfrog.png" alt="Avatar Logo" style="width:40px;"
+                            class="rounded-pill"></a>
+                    <a href="InicioSesion.html" class="nav-item nav-link">Iniciar Sesion</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="card w-75" style="background-color: #F8BB1f; margin-left: 190px; margin-top: 80px;">
+        <img src="Img/logopag.png" class="card-img-top" alt="..."
+            style="width:20% ; margin-left: 20px; margin-top: 10px;">
+        <div class="card-body">
+            <h5 class="card-title">Seccion de carga Memes</h5>
+            <p class="card-text">Un buen meme tiene que destacar del resto, pero también reflejar tendencias, chistes e
+                ideas actuales. Suele ser breve y simple, con una imagen que llame la atención y poco texto. Utiliza
+                humor con el que tu audiencia se pueda identificar.
+                Aqui puedes subir imagenes de memes o un video a tu publico y volverte famoso o aportar a la comunidad.
+            </p>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="Img/doggo bat.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imagen</h5>
+                            <p class="card-text">Seccion de imagenes (JPG, GIF, PNG, JPEG).</p>
+
+
+                            <a href="#" class="btn btn-light" data-bs-toggle="modal"
+                                data-bs-target="#Ventanaimagen">Publicar</a>
+                        </div>
+                    </div>
+                    <!--Ventana model-->
+
+                    <div class="modal fade" tabindex="-1" id="Ventanaimagen">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Imagen</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="Titulo" placeholder="Titulo">
+                                        <label for="floatingInput">Titulo de la Imagen/Gif</label>
+                                    </div>
+                                    <h5 class="modal-title">Etiquetas</h5>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Funny</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Humor Blanco</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">Spooky</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4"
+                                            value="option4">
+                                        <label class="form-check-label" for="inlineCheckbox4">Gaming</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5"
+                                            value="option5">
+                                        <label class="form-check-label" for="inlineCheckbox5">Movies</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox6"
+                                            value="option6">
+                                        <label class="form-check-label" for="inlineCheckbox6">Memes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox7"
+                                            value="option7">
+                                        <label class="form-check-label" for="inlineCheckbox7">WTF</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8"
+                                            value="option8">
+                                        <label class="form-check-label" for="inlineCheckbox8">Criptomonedas</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox9"
+                                            value="option9">
+                                        <label class="form-check-label" for="inlineCheckbox9">Famosos</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10"
+                                            value="option10">
+                                        <label class="form-check-label" for="inlineCheckbox10">TV</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox11"
+                                            value="option11">
+                                        <label class="form-check-label" for="inlineCheckbox11">Anime & Manga</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox12"
+                                            value="option12">
+                                        <label class="form-check-label" for="inlineCheckbox12">NSFW</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formFileSm" class="form-label">Archivo a subir</label>
+                                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="Img/tenor.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Video</h5>
+                            <p class="card-text">Seccion de Videos (MP4, AVI, OGG).</p>
+
+
+
+
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#Ventanavideo">Publicar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Ventana model-->
+                <div class="modal fade" tabindex="-1" id="Ventanavideo">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Videos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="Titulo" placeholder="Titulo">
+                                    <label for="floatingInput">Titulo del Video</label>
+                                </div>
+                                <h5 class="modal-title">Etiquetas</h5>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Funny</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Humor Blanco</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                        value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">Spooky</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4"
+                                        value="option4">
+                                    <label class="form-check-label" for="inlineCheckbox4">Gaming</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5"
+                                        value="option5">
+                                    <label class="form-check-label" for="inlineCheckbox5">Movies</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6"
+                                        value="option6">
+                                    <label class="form-check-label" for="inlineCheckbox6">Memes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox7"
+                                        value="option7">
+                                    <label class="form-check-label" for="inlineCheckbox7">WTF</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox8"
+                                        value="option8">
+                                    <label class="form-check-label" for="inlineCheckbox8">Criptomonedas</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox9"
+                                        value="option9">
+                                    <label class="form-check-label" for="inlineCheckbox9">Famosos</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox10"
+                                        value="option10">
+                                    <label class="form-check-label" for="inlineCheckbox10">TV</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox11"
+                                        value="option11">
+                                    <label class="form-check-label" for="inlineCheckbox11">Anime & Manga</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox12"
+                                        value="option12">
+                                    <label class="form-check-label" for="inlineCheckbox12">NSFW</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formFileSm" class="form-label">Archivo a subir</label>
+                                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

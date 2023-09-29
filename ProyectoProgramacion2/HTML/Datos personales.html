@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+    <link rel="stylesheet" href="Datos personales.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#211A09 ;">
+    <div class="seccion_menu">
+        <img class="imagen" src="Img/Doggyburned.gif" alt="">
+        <h1 class="linea1">Doggy360noscope</h1>
+    </div>
+    <div class="conteiner">
+        <div class="datos">
+            <a href="Inicio2.html"><img src="Img/logopag.png" alt="Avatar Logo" style="width:180px; margin-top: 30px;"
+                    class="rounded-pill"></a>
+            <a class="texto active" href="Datos personales.html">
+                <h2>DATOS PERSONALES</h2>
+            </a>
+            <a class="texto" href="perfil.html">
+                <h2>MI PERFIL</h2>
+            </a>
+            <a class="texto" href="#">
+                <h2>SEGURIDAD</h2>
+            </a>
+            <a class="texto" href="#">
+                <h2>HISTORIAL</h2>
+            </a>
+            <a class="texto" href="MemesPublicados.html">
+                <h2>MEMES PUBLICADOS</h2>
+            </a>
+            <a class="texto" href="Favoritos.html">
+                <h2>FAVORITOS</h2>
+            </a>
+        </div>
+        <div class="cuadro">
+            <h2>Nombre</h2>
+            <input class="dato" readonly type="text" name="nombre" id="nombre" placeholder="" value="Paca">
+            <h2>Apellido</h2>
+            <input class="dato" readonly type="text" name="nombre" id="apellido" placeholder="" value="Garte">
+            <h2>Correo electrónico</h2>
+            <input class="dato" readonly type="email" name="nombre" id="correo" placeholder="" value="ElsaCapunta03@gmail.com">
+            <h2>Contraseña</h2>
+            <input class="dato" readonly type="password" name="nombre" id="contraseña" placeholder="" value="fasfas">
+            <h2>usuario</h2>
+            <input class="dato" readonly type="text" name="nombre" id="usuario" placeholder="" value="Doggy360noscope">
+            <h2>Fecha de nacimiento</h2>
+            <input class="dato" readonly type="text" name="nombre" id="fecha" placeholder="" value="27/06/2300">
+            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#personal">Editar</a>
+        </div>
+    </div>
+
+    <!--Ventana model-->
+
+    <div class="modal fade modal-lg" tabindex="-1" id="personal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Datos personales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <h5 class="modal-title">Informacion personal</h5>
+                
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Correo</label>
+                      <input type="email" class="form-control" id="inputcorreo" placeholder="ElsaCapunta03@gmail.com">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="inputcontraseña">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="inputNombre" placeholder="Paca">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="inputApellido" placeholder="Garte">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Usuario</label>
+                      <input type="text" class="form-control" id="inputusuario" placeholder="Doggy360noscope">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Usuario</label>
+                        <input type="date" class="form-control" id="inputusuario" placeholder="27/06/2300">
+                      </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div> <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

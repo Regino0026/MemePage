@@ -1,0 +1,158 @@
+body{
+    background-color: #211A09 ;
+    margin: 0;
+    
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nombre-pagina{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+
+color: transparent;
+ -webkit-text-stroke: 2px #F8BB1f ;
+
+}
+
+nav a{
+    color:  white;
+    font-weight: 600;
+    padding-right: 30px;
+    
+   
+}
+
+.registrate a{
+    color: white;
+    text-decoration: none;
+    background-color: #F8BB1f;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #211A09;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-left: 40px;
+    
+
+}
+
+#seccion {
+    color: black;
+    width: 800px;
+    min-height: 600px;
+    background-color: #F8BB1f;
+    margin: 10px;
+    margin-left: 90px;
+    display: inline-block;
+    
+
+}
+
+nav a:hover{
+color: #F8BB1f;
+}
+
+
+
+
+.memes1 img{
+    height: 400px;
+    margin-left: 100px;
+    
+    
+    
+}
+
+.memes2 img{
+    height: 450px;
+    margin-left: 120px;
+    
+    
+}
+.aside{
+    display: inline-block;
+    width: 350px;
+    min-height: 400px;
+    background-color: black;
+    float: right;
+    margin: 10px;
+
+}
+
+.aside2{
+    display: inline-block;
+    width: 350px;
+    min-height: 400px;
+    background-color: black;
+    float: right;
+    margin: 10px;
+    align-items: flex-start;
+
+}
+
+
+
+aside h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 1300px;
+}
+
+.unimeme img{
+    height: 300px;
+    margin-left: 10px;
+}
+
+.like{
+    color: white;
+    text-decoration: none;
+    background-color: #211A09;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.compartir{
+    color: white;
+    text-decoration: none;
+    background-color: #211A09;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 5px;
+    
+}
+
+
+
+
